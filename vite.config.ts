@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/my-website/', // <-- Set this to your repo name
+  base: '/', // <-- Use '/' for custom domains!
   build: {
     assetsDir: 'assets',
     rollupOptions: {
