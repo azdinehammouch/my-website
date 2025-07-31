@@ -57,10 +57,14 @@ const Home: React.FC = () => {
               <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
             
-            <button className="group relative px-8 py-4 border-2 border-cyan-400 rounded-lg font-semibold text-cyan-400 hover:bg-cyan-400 hover:text-black transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
+            <a
+              href="/AZZEDDINE HAMMOUCH.pdf"
+              download
+              className="group relative px-8 py-4 border-2 border-cyan-400 rounded-lg font-semibold text-cyan-400 hover:bg-cyan-400 hover:text-black transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
+            >
               <Download className="w-5 h-5 group-hover:animate-bounce" />
               <span>Download Resume</span>
-            </button>
+            </a>
           </div>
         </motion.div>
 
