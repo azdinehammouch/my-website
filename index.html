@@ -2,6 +2,9 @@
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
+    <!-- Security: restrict where scripts/styles/connections may come from. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://api.emailjs.com; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Azzeddine Hammouch - Cybersecurity Engineer & software Developer. Moroccan specialist in cybersecurity, web development, and innovative tech solutions." />
